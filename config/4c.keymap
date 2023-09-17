@@ -77,11 +77,11 @@
 
         layer_4 {
             bindings = <
-&kp ESCAPE  &kp NUMBER_1    &kp NUMBER_2  &kp T           &kp NUMBER_3      &kp NUMBER_4    &trans           &trans                                  &trans        &trans   &trans             &trans
-&kp I       &kp TAB         &kp Q         &kp NUMBER_5    &kp E             &kp R           &trans           &trans                                  &trans        &trans   &trans             &trans
-&kp O       &kp LEFT_SHIFT  &kp A         &kp W           &kp D             &kp F           &kp C_VOLUME_UP  &trans                                  &trans        &trans   &kp C_VOLUME_DOWN  &trans
-&kp LCTRL   &kp Z           &kp X         &kp S           &kp C             &kp V           &trans           &trans                                  &trans        &trans   &trans             &trans
-&to 0       &to 4           &kp SPACE     &kp C_SNAPSHOT  &kp LEFT_CONTROL                                   &kp C_AC_DESKTOP_SHOW_ALL_APPLICATIONS  &kp LEFT_WIN  &alt_f4  &to 1              &to 2
+&kp ESCAPE  &kp NUMBER_1    &kp NUMBER_2  &kp N5          &kp NUMBER_3      &kp NUMBER_4    &trans  &trans                                  &trans        &trans   &trans             &trans
+&kp I       &kp TAB         &kp Q         &kp W           &kp E             &kp R           &trans  &trans                                  &trans        &trans   &trans             &trans
+&kp O       &kp LEFT_SHIFT  &kp A         &kp S           &kp D             &kp F           &trans  &kp C_VOL_UP                            &trans        &trans   &kp C_VOLUME_DOWN  &trans
+&kp LCTRL   &kp Z           &kp X         &kp M           &kp C             &kp V           &trans  &trans                                  &trans        &trans   &trans             &trans
+&to 0       &to 4           &kp SPACE     &kp C_SNAPSHOT  &kp LEFT_CONTROL                          &kp C_AC_DESKTOP_SHOW_ALL_APPLICATIONS  &kp LEFT_WIN  &alt_f4  &to 1              &to 2
             >;
         };
 
