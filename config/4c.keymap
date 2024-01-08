@@ -53,7 +53,7 @@
 &kp TAB    &kp Q   &kp W      &kp E             &kp R             &kp T     &kp Y   &kp U         &kp I      &kp O      &kp P     &kp RET
 &kp LCTRL  &kp A   &kp S      &kp D             &kp F             &kp G     &kp H   &kp J         &kp K      &kp L      &kp SEMI  &kp SQT
 &kp LSHFT  &kp Z   &kp X      &kp C             &kp V             &kp B     &kp N   &kp M         &kp COMMA  &kp DOT    &kp FSLH  &kp RSHFT
-&to 3      &to 4   &kp SPACE  &kp LS(CAPSLOCK)  &kp K_VOLUME_UP2                    &kp C_VOL_DN  &kp LWIN   &kp SPACE  &to 1     &to 2
+&to 3      &to 0   &kp SPACE  &kp LS(CAPSLOCK)  &kp K_VOLUME_UP2                    &kp C_VOL_DN  &kp LWIN   &kp SPACE  &to 1     &to 2
             >;
         };
 
@@ -63,7 +63,7 @@
 &kp TAB         &kp ESC                            &kp PAGE_UP      &kp UP_ARROW    &kp PAGE_DOWN   &kp LEFT_BRACKET        &kp RIGHT_BRACKET      &bt BT_NXT      &bt BT_PRV    &bt BT_SEL 0  &bt BT_CLR  &kp BACKSLASH
 &kp LEFT_SHIFT  &kp C_AC_DESKTOP_SHOW_ALL_WINDOWS  &kp LEFT_ARROW   &kp DOWN_ARROW  &kp RIGHT       &kp LEFT_BRACE          &kp RIGHT_BRACE        &kp C_PREV      &kp C_PP      &kp C_NEXT    &kp ESC     &trans
 &kp LCTRL       &trans                             &kp C_VOLUME_UP  &kp C_VOL_DN    &kp K_MUTE      &kp LEFT_PARENTHESIS    &kp RIGHT_PARENTHESIS  &kp K_MUTE      &kp C_VOL_DN  &kp C_VOL_UP  &trans      &trans
-&to 4           &to 3                              &kp SPACE        &kp C_POWER     &kp LEFT_SHIFT                                                 &kp LEFT_SHIFT  &kp LEFT_GUI  &kp SPACE     &to 0       &to 2
+&to 0           &to 3                              &kp SPACE        &kp C_POWER     &kp LEFT_SHIFT                                                 &kp LEFT_SHIFT  &kp LEFT_GUI  &kp SPACE     &to 0       &to 2
             >;
         };
 
@@ -73,7 +73,7 @@
 &kp HASH   &kp DOUBLE_QUOTES  &kp EQUAL     &kp COMMA         &Square_Root  &kp LEFT_BRACKET        &kp RIGHT_BRACKET      &kp CARET    &kp SLASH     &kp ASTERISK  &kp SINGLE_QUOTE  &kp TAB
 &kp ENTER  &kp NUMBER_1       &kp NUMBER_2  &kp NUMBER_3      &kp NUMBER_4  &kp NUMBER_5            &kp NUMBER_6           &kp N7       &kp N8        &kp N9        &kp N0            &kp ENTER
 &kp LCTRL  &kp X              &kp Y         &kp M             &key_repeat   &kp LEFT_PARENTHESIS    &kp RIGHT_PARENTHESIS  &key_repeat  &kp A         &kp B         &kp Z             &kp LSHFT
-&to 4      &to 3              &kp PLUS      &kp K_CALCULATOR  &kp SPACE                                                    &kp PERIOD   &kp LEFT_GUI  &kp MINUS     &to 1             &to 0
+&to 0      &to 3              &kp PLUS      &kp K_CALCULATOR  &kp SPACE                                                    &kp PERIOD   &kp LEFT_GUI  &kp MINUS     &to 1             &to 0
             >;
         };
 
@@ -83,17 +83,7 @@
 &kp I       &kp TAB         &kp Q         &kp W      &kp E         &kp R           &trans  &trans           &trans        &trans   &trans             &trans
 &kp O       &kp LEFT_SHIFT  &kp A         &kp S      &kp D         &kp F           &trans  &kp C_VOL_UP     &trans        &trans   &kp C_VOLUME_DOWN  &trans
 &kp LCTRL   &kp Z           &kp X         &kp M      &kp C         &kp V           &trans  &trans           &trans        &trans   &trans             &trans
-&to 4       &to 0           &kp SPACE     &kp LCTRL  &kp C_VOL_DN                          &kp C_VOLUME_UP  &kp LEFT_WIN  &alt_f4  &to 1              &to 2
-            >;
-        };
-
-        layer_4 {
-            bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans
+&to 0       &to 0           &kp SPACE     &kp LCTRL  &kp C_VOL_DN                          &kp C_VOLUME_UP  &kp LEFT_WIN  &alt_f4  &to 1              &to 2
             >;
         };
     };
