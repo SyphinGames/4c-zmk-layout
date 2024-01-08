@@ -42,6 +42,13 @@
             #binding-cells = <0>;
             bindings = <&kt LEFT_ALT &kp KP_NUMBER_2 &kp KP_NUMBER_5 &kp KP_NUMBER_1 &kt LEFT_ALT>;
         };
+
+        PI: PI {
+            compatible = "zmk,behavior-macro";
+            label = "PI";
+            #binding-cells = <0>;
+            bindings = <&kt LEFT_ALT &kp KP_NUMBER_2 &kp KP_NUMBER_2 &kp KP_NUMBER_7 &kt LEFT_ALT>;
+        };
     };
 
     keymap {
@@ -72,7 +79,7 @@
 &kp F12    &kp F1             &kp F2        &kp F3            &kp F4        &kp F5                  &kp F6                 &kp F7       &kp F8        &kp F9        &kp F10           &kp F11
 &kp HASH   &kp DOUBLE_QUOTES  &kp EQUAL     &kp COMMA         &Square_Root  &kp LEFT_BRACKET        &kp RIGHT_BRACKET      &kp CARET    &kp SLASH     &kp ASTERISK  &kp SINGLE_QUOTE  &kp TAB
 &kp ENTER  &kp NUMBER_1       &kp NUMBER_2  &kp NUMBER_3      &kp NUMBER_4  &kp NUMBER_5            &kp NUMBER_6           &kp N7       &kp N8        &kp N9        &kp N0            &kp ENTER
-&kp LCTRL  &kp X              &kp Y         &kp M             &key_repeat   &kp LEFT_PARENTHESIS    &kp RIGHT_PARENTHESIS  &key_repeat  &kp A         &kp B         &kp Z             &kp LSHFT
+&kp LCTRL  &kp X              &kp Y         &kp M             &PI           &kp LEFT_PARENTHESIS    &kp RIGHT_PARENTHESIS  &key_repeat  &kp A         &kp B         &kp Z             &kp LSHFT
 &to 0      &to 3              &kp PLUS      &kp K_CALCULATOR  &kp SPACE                                                    &kp PERIOD   &kp LEFT_GUI  &kp MINUS     &to 1             &to 0
             >;
         };
